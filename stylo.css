@@ -112,6 +112,8 @@ header a:hover{
     display: none;
 }
 #Mis-Estudios .carta{
+    padding: 50px;
+    margin: 20px;
     background-size: cover;
     background-position: center center;
 }
@@ -145,6 +147,42 @@ header a:hover{
    
        )
        ,url("media/python.jpg");
+}
+
+#caracteristicas .container{
+    text-align: center;
+    padding: 250px 12px;
+
+}
+
+#caracteristicas li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+#contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    height: 80vh;
+}
+
+footer{
+    background-color: rgb(230,230,230);
+}
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+}
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 h1{font-size: 3.5em;}
