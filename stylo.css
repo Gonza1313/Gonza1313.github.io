@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 
 
 body{
@@ -97,11 +101,50 @@ header a:hover{
 #Mis-Estudios{
     background-color: rgb(30, 30, 30);
     color: white;
+    text-align: center;
 }
 #Mis-Estudios .container{
-    text-align: center;
+    padding: 100px 0px;
 
 
+}
+#Mis-Estudios p{
+    display: none;
+}
+#Mis-Estudios .carta{
+    background-size: cover;
+    background-position: center center;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+     0deg,
+     rgba(0,0,0,0.5),
+     rgba(0,0,0,0.5)
+
+    )
+    ,url("media/servicio-tecnico.jpg");
+    
+
+}
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+   
+       )
+       ,url("media/estudiante.png");
+
+}
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+   
+       )
+       ,url("media/python.jpg");
 }
 
 h1{font-size: 3.5em;}
