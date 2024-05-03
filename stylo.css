@@ -170,6 +170,9 @@ header a:hover{
     color: white;
     height: 80vh;
 }
+#contacto button{
+    background-color: rgb(82, 134, 3);
+}
 
 footer{
     background-color: rgb(230,230,230);
